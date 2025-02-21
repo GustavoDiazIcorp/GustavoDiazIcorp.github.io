@@ -1,17 +1,25 @@
 {
-    "devMode": true,
-    "description": "Mi visualización",
+    "name": "Word Cloud Visualization",
+    "organization": "Gustavo Diaz Corp",
+    "description": "A word cloud visualization for Looker Studio",
+    "logoUrl": "https://gustavodiazicorp.github.io/logo.png",
+    "organizationUrl": "https://gustavodiazicorp.github.io",
+    "supportUrl": "https://gustavodiazicorp.github.io/support",
+    "privacyPolicyUrl": "https://gustavodiazicorp.github.io/privacy",
+    "termsOfServiceUrl": "https://gustavodiazicorp.github.io/tos",
+    "packageUrl": "https://gustavodiazicorp.github.io/manifest.json",
+    "devMode": false,
     "components": [
       {
-        "name": "word_cloud_chart",
-        "title": "Nube de Palabras",
-        "version": "1.0",
-        "resources": {
-          "js": [
-            "https://cdn.jsdelivr.net/npm/wordcloud@1.2.2/src/wordcloud2.js",
-            "https://gustavodiazicorp.github.io/wordcloud.js"
-          ],
-          "css": []
+        "id": "word_cloud_chart",
+        "name": "Word Cloud",
+        "description": "Word cloud visualization for Looker Studio",
+        "iconUrl": "https://gustavodiazicorp.github.io/wordcloud_icon.png",
+        "infoUrl": "https://gustavodiazicorp.github.io/docs",
+        "resource": {
+          "js": "https://gustavodiazicorp.github.io/wordcloud.js",
+          "config": "https://gustavodiazicorp.github.io/wordcloud-config.json",
+          "css": ""
         }
       }
     ]
