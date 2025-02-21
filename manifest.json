@@ -1,0 +1,13 @@
+{
+    "visualizations": [
+      {
+        "id": "word_cloud_chart",
+        "label": "Nube de Palabras",
+        "config": {
+          "js": ["https://gustavodiazicorp.github.io/wordcloud.js"],
+          "css": []
+        }
+      }
+    ]
+  }
+  
