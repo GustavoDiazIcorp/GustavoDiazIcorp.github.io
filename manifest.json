@@ -1,9 +1,12 @@
 {
-    "visualizations": [
+    "devMode": true,
+    "description": "Mi visualización",
+    "components": [
       {
-        "id": "word_cloud_chart",
-        "label": "Nube de Palabras",
-        "config": {
+        "name": "word_cloud_chart",
+        "title": "Nube de Palabras",
+        "version": "1.0",
+        "resources": {
           "js": [
             "https://cdn.jsdelivr.net/npm/wordcloud@1.2.2/src/wordcloud2.js",
             "https://gustavodiazicorp.github.io/wordcloud.js"
